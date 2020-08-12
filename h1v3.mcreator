@@ -1,10 +1,81 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Rocketred",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rocketred"
+    },
+    {
+      "name": "Rocketblue",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rocketblue"
+    },
+    {
+      "name": "RocketLauncherRed",
+      "type": "gun",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rocket_launcher_red"
+    },
+    {
+      "name": "RocketLauncherBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rocket_launcher_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RocketLauncherBlue",
+      "type": "gun",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rocket_launcher_blue"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.h1v3.rocket_launcher_red": "Rocket Launcher Red",
+      "item.h1v3.rocketblue": "Rocketblue",
+      "item.h1v3.rocket_launcher_blue": "Rocket Launcher Blue",
+      "item.h1v3.rocketred": "Rocketred"
+    }
   },
   "workspaceSettings": {
     "modid": "h1v3",
