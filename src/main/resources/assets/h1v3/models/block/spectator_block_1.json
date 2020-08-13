@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "h1v3:blocks/green_terracotta",
+    "up": "h1v3:blocks/green_terracotta",
+    "north": "h1v3:blocks/green_terracotta",
+    "east": "h1v3:blocks/green_terracotta",
+    "south": "h1v3:blocks/green_terracotta",
+    "west": "h1v3:blocks/green_terracotta",
+    "particle": "h1v3:blocks/green_terracotta"
+  }
+}

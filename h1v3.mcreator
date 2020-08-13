@@ -65,6 +65,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "rocket_launcher_blue"
+    },
+    {
+      "name": "SpectatorBlock0",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spectator_block_0"
+    },
+    {
+      "name": "SpectatorBlock1",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spectator_block_1"
     }
   ],
   "variable_elements": [],
@@ -72,8 +90,10 @@
   "language_map": {
     "en_us": {
       "item.h1v3.rocket_launcher_red": "Rocket Launcher Red",
+      "block.h1v3.spectator_block_1": "Spectator Block 1",
       "item.h1v3.rocketblue": "Rocketblue",
       "item.h1v3.rocket_launcher_blue": "Rocket Launcher Blue",
+      "block.h1v3.spectator_block_0": "Spectator Block 0",
       "item.h1v3.rocketred": "Rocketred"
     }
   },
