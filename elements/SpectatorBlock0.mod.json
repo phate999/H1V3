@@ -4,7 +4,7 @@
   "definition": {
     "texture": "quartz_block_bottom",
     "textureTop": "quartz_block_top",
-    "textureLeft": "quartz_block_side",
+    "textureLeft": "quartz_block_top",
     "textureFront": "quartz_block_side",
     "textureRight": "quartz_block_side",
     "textureBack": "quartz_block_side",

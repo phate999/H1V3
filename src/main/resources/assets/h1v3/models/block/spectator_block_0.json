@@ -4,7 +4,7 @@
     "down": "h1v3:blocks/quartz_block_bottom",
     "up": "h1v3:blocks/quartz_block_top",
     "north": "h1v3:blocks/quartz_block_side",
-    "east": "h1v3:blocks/quartz_block_side",
+    "east": "h1v3:blocks/quartz_block_top",
     "south": "h1v3:blocks/quartz_block_side",
     "west": "h1v3:blocks/quartz_block_side",
     "particle": "h1v3:blocks/quartz_block_bottom"
