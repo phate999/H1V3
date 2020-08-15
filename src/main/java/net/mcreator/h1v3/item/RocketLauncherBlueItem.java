@@ -23,9 +23,12 @@ import net.minecraft.item.ShootableItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
+import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.projectile.AbstractArrowEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.ai.attributes.AttributeModifier;
+import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.IRendersAsItem;
 import net.minecraft.entity.EntityType;
@@ -40,6 +43,8 @@ import net.mcreator.h1v3.H1v3ModElements;
 import java.util.Random;
 import java.util.Map;
 import java.util.HashMap;
+
+import com.google.common.collect.Multimap;
 
 @H1v3ModElements.ModElement.Tag
 public class RocketLauncherBlueItem extends H1v3ModElements.ModElement {
@@ -85,6 +90,18 @@ public class RocketLauncherBlueItem extends H1v3ModElements.ModElement {
 		@Override
 		public int getUseDuration(ItemStack itemstack) {
 			return 72000;
+		}
+
+		@Override
+		public Multimap<String, AttributeModifier> getAttributeModifiers(EquipmentSlotType slot) {
+			Multimap<String, AttributeModifier> multimap = super.getAttributeModifiers(slot);
+			if (slot == EquipmentSlotType.MAINHAND) {
+				multimap.put(SharedMonsterAttributes.ATTACK_DAMAGE.getName(),
+						new AttributeModifier(ATTACK_DAMAGE_MODIFIER, "ranged_item_damage", (double) 98, AttributeModifier.Operation.ADDITION));
+				multimap.put(SharedMonsterAttributes.ATTACK_SPEED.getName(),
+						new AttributeModifier(ATTACK_SPEED_MODIFIER, "ranged_item_attack_speed", -2.4, AttributeModifier.Operation.ADDITION));
+			}
+			return multimap;
 		}
 
 		@Override

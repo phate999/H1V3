@@ -20,8 +20,8 @@
       "value": "entity.bee.sting"
     },
     "hasGlow": false,
-    "enableMeleeDamage": false,
-    "damageVsEntity": 4.0,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 100.0,
     "bulletPower": 2.0,
     "bulletDamage": 10.0,
     "bulletKnockback": 2,
