@@ -83,18 +83,56 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "spectator_block_1"
+    },
+    {
+      "name": "ArmorRed",
+      "type": "armor",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armor_red",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "ArmorBlue",
+      "type": "armor",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armor_blue",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.h1v3.rocket_launcher_red": "Rocket Launcher Red",
+      "item.h1v3.armor_blue_boots": "Armor Blue Boots",
       "block.h1v3.spectator_block_1": "Spectator Block 1",
+      "item.h1v3.rocket_launcher_red": "Rocket Launcher Red",
+      "item.h1v3.armor_red_helmet": "Armor Red Helmet",
       "item.h1v3.rocketblue": "Rocketblue",
       "item.h1v3.rocket_launcher_blue": "Rocket Launcher Blue",
+      "item.h1v3.armor_red_boots": "Armor Red Boots",
       "block.h1v3.spectator_block_0": "Spectator Block 0",
-      "item.h1v3.rocketred": "Rocketred"
+      "item.h1v3.armor_blue_leggings": "Armor Blue Leggings",
+      "item.h1v3.rocketred": "Rocketred",
+      "item.h1v3.armor_blue_chestplate": "Armor Blue Body",
+      "item.h1v3.armor_blue_helmet": "Armor Blue Helmet",
+      "item.h1v3.armor_red_leggings": "Armor Red Leggings",
+      "item.h1v3.armor_red_chestplate": "Armor Red Body"
     }
   },
   "workspaceSettings": {
